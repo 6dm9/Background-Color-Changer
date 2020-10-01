@@ -15,7 +15,6 @@ function func(e)
     //****USING MATH.FLOOR(MATH.RANDOM()*COLORS.LENGTH)
     let vv = Math.floor(Math.random()*(colors.length));
     console.log(colors[vv]);
-    alert(colors[vv]);
     body.style.backgroundColor = colors[vv];
     
     
